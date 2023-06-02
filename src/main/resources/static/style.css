@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+form{
+    justify-content: start;
+    display: flex;
+}
+.form-div{
+    text-align: start;
+    min-height: 45vh;
+    background-color: rgb(179, 209, 209);
+    
+}
+
+fieldset{
+    text-align: start;
+    display: flex !important;
+    flex-direction: column;
+    min-height: 30vh;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    width: 20rem;
+}
+.btn{
+   background-color: blue;
+    text-align: start;
+    width: 120px;
+    margin-top:0.8rem ;
+    border: solid 2px rgb(8, 33, 255);
+}
+.btn:hover{
+  background-color: rgb(5, 70, 248);
+}
